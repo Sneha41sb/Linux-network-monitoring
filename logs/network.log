@@ -1,0 +1,107 @@
+-----------------------------------
+Linux network monitoring script started
+Time: Thu Jan  1 06:30:48 UTC 2026
+-----------------------------------
+Linux network monitoring script started
+Time: Thu Jan  1 07:42:31 UTC 2026
+-----------------------------------
+Linux network monitoring script started
+Time: Thu Jan  1 09:08:26 UTC 2026
+-----------------------------------
+Linux network monitoring script started
+Time: Thu Jan  1 09:10:37 UTC 2026
+-----------------------------------
+Linux network monitoring script started
+Time: Thu Jan  1 09:14:35 UTC 2026
+-----------------------------------
+Linux network monitoring script started
+Time: Thu Jan  1 09:16:17 UTC 2026
+Internet Status: CONNECTED (HTTPS OK)
+-----------------------------------
+Linux network monitoring script started
+Time: Thu Jan  1 12:58:57 UTC 2026
+Internet Status: CONNECTED (HTTPS OK)
+
+Open Listening Ports:
+Netid State  Recv-Q Send-Q  Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0          127.0.0.54:53         0.0.0.0:*          
+udp   UNCONN 0      0       127.0.0.53%lo:53         0.0.0.0:*          
+udp   UNCONN 0      0      10.255.255.254:53         0.0.0.0:*          
+udp   UNCONN 0      0           127.0.0.1:323        0.0.0.0:*          
+udp   UNCONN 0      0               [::1]:323           [::]:*          
+tcp   LISTEN 0      4096    127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      511         127.0.0.1:39733      0.0.0.0:*          
+tcp   LISTEN 0      4096       127.0.0.54:53         0.0.0.0:*          
+tcp   LISTEN 0      1000   10.255.255.254:53         0.0.0.0:*          
+-----------------------------------
+Linux network monitoring script started
+Time: Thu Jan  1 13:00:01 UTC 2026
+Internet Status: CONNECTED (HTTPS OK)
+
+Open Listening Ports:
+Netid State  Recv-Q Send-Q  Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0          127.0.0.54:53         0.0.0.0:*          
+udp   UNCONN 0      0       127.0.0.53%lo:53         0.0.0.0:*          
+udp   UNCONN 0      0      10.255.255.254:53         0.0.0.0:*          
+udp   UNCONN 0      0           127.0.0.1:323        0.0.0.0:*          
+udp   UNCONN 0      0               [::1]:323           [::]:*          
+tcp   LISTEN 0      4096    127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      511         127.0.0.1:39733      0.0.0.0:*          
+tcp   LISTEN 0      4096       127.0.0.54:53         0.0.0.0:*          
+tcp   LISTEN 0      1000   10.255.255.254:53         0.0.0.0:*          
+-----------------------------------
+Linux network monitoring script started
+Time: Fri Jan  2 09:12:40 UTC 2026
+Internet Status: CONNECTED (HTTPS OK)
+
+Open Listening Ports:
+Netid State  Recv-Q Send-Q  Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0          127.0.0.54:53         0.0.0.0:*          
+udp   UNCONN 0      0       127.0.0.53%lo:53         0.0.0.0:*          
+udp   UNCONN 0      0      10.255.255.254:53         0.0.0.0:*          
+udp   UNCONN 0      0           127.0.0.1:323        0.0.0.0:*          
+udp   UNCONN 0      0               [::1]:323           [::]:*          
+tcp   LISTEN 0      4096       127.0.0.54:53         0.0.0.0:*          
+tcp   LISTEN 0      1000   10.255.255.254:53         0.0.0.0:*          
+tcp   LISTEN 0      4096    127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      511         127.0.0.1:41097      0.0.0.0:*          
+
+Port to Process Mapping:
+COMMAND   PID            USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+systemd-r 114 systemd-resolve   14u  IPv4   5521      0t0  UDP 127.0.0.53:53 
+systemd-r 114 systemd-resolve   15u  IPv4   5522      0t0  TCP 127.0.0.53:53 (LISTEN)
+systemd-r 114 systemd-resolve   16u  IPv4   5523      0t0  UDP 127.0.0.54:53 
+systemd-r 114 systemd-resolve   17u  IPv4   5524      0t0  TCP 127.0.0.54:53 (LISTEN)
+node      528           sneha   22u  IPv4   6847      0t0  TCP 127.0.0.1:41097 (LISTEN)
+node      528           sneha   26u  IPv4   2664      0t0  TCP 127.0.0.1:41097->127.0.0.1:33816 (ESTABLISHED)
+node      554           sneha   22u  IPv4   5611      0t0  TCP 127.0.0.1:33816->127.0.0.1:41097 (ESTABLISHED)
+node      571           sneha   22u  IPv4  10617      0t0  TCP 127.0.0.1:33822->127.0.0.1:41097 (ESTABLISHED)
+node      611           sneha   22u  IPv4   4502      0t0  TCP 127.0.0.1:41097->127.0.0.1:33822 (ESTABLISHED)
+-----------------------------------
+Linux network monitoring script started
+Time: Fri Jan  2 09:14:01 UTC 2026
+Internet Status: CONNECTED (HTTPS OK)
+
+Open Listening Ports:
+Netid State  Recv-Q Send-Q  Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0          127.0.0.54:53         0.0.0.0:*          
+udp   UNCONN 0      0       127.0.0.53%lo:53         0.0.0.0:*          
+udp   UNCONN 0      0      10.255.255.254:53         0.0.0.0:*          
+udp   UNCONN 0      0           127.0.0.1:323        0.0.0.0:*          
+udp   UNCONN 0      0               [::1]:323           [::]:*          
+tcp   LISTEN 0      4096       127.0.0.54:53         0.0.0.0:*          
+tcp   LISTEN 0      1000   10.255.255.254:53         0.0.0.0:*          
+tcp   LISTEN 0      4096    127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      511         127.0.0.1:41097      0.0.0.0:*          
+
+Port to Process Mapping:
+COMMAND   PID            USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+systemd-r 114 systemd-resolve   14u  IPv4   5521      0t0  UDP 127.0.0.53:53 
+systemd-r 114 systemd-resolve   15u  IPv4   5522      0t0  TCP 127.0.0.53:53 (LISTEN)
+systemd-r 114 systemd-resolve   16u  IPv4   5523      0t0  UDP 127.0.0.54:53 
+systemd-r 114 systemd-resolve   17u  IPv4   5524      0t0  TCP 127.0.0.54:53 (LISTEN)
+node      528           sneha   22u  IPv4   6847      0t0  TCP 127.0.0.1:41097 (LISTEN)
+node      528           sneha   26u  IPv4   2664      0t0  TCP 127.0.0.1:41097->127.0.0.1:33816 (ESTABLISHED)
+node      554           sneha   22u  IPv4   5611      0t0  TCP 127.0.0.1:33816->127.0.0.1:41097 (ESTABLISHED)
+node      571           sneha   22u  IPv4  10617      0t0  TCP 127.0.0.1:33822->127.0.0.1:41097 (ESTABLISHED)
+node      611           sneha   22u  IPv4   4502      0t0  TCP 127.0.0.1:41097->127.0.0.1:33822 (ESTABLISHED)
